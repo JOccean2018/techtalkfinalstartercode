@@ -1,6 +1,3 @@
-// JavaScript File
-// JavaScript File
-$( document ).ready(function() {
-
-
+$(document).ready(function() {
+    // All your JavaScript 
 });
