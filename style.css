@@ -1,8 +1,36 @@
 .navbar-brand {
-    padding: 0px;
+    /*padding: 0px;*/
 }
 
 .navbar-brand>img {
     height: 100%;
     width: auto;
+}
+
+img{
+    width:100%;
+    height:400px;
+    /*max-width: 100%; height: auto;*/
+    /*min-height: 100%;*/
+}
+.img-responsive {
+padding-left:0;
+padding-right:0;
+}
+ 
+.popover {
+    margin-top:400px;
+    background-color:black;
+}
+
+.popover-title {
+    background-color:grey;
+}
+
+.popover-content {
+    color:white;
+}
+.pop1{
+    margin-top:75px;
+    
 }
