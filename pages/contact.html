@@ -8,13 +8,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../information.css" type="text/css"/>
     <title> </title>
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-default">
+        <nav class="navbar-fixed-top navbar-default">
             <div class="container-fluid">
+                 <a class="navbar-brand"><img style="height:30px; width:130px;" src="logo.png"></a>
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
           <span class="sr-only">Toggle navigation</span>
@@ -40,44 +42,93 @@
                             </ul>
                         </li>
                     </ul>
+                    <a class="nav" href="../index.html"><img src="nycmountlogo.png" style="height:75px; width:55px; position: absolute;    
+    margin-bottom:-18px;
+   
+    bottom: 0px;
+    left: 80%;
+    right: 0px;"></img></a>
                 </div>
-                <!--/.nav-collapse -->
+
             </div>
-            <!--/.container-fluid -->
+
         </nav>
 
-        <div class="container" id="form">
+        <div class="container">
             <div class="row">
-                <div class="" col-md-3 ">
-                
-                <h1>Give Feedback</h1>
-                <form>
-                    <div class="form-group ">
-                        <label>Reader Name</label>
-                        <input class="form-control ">
-                    </div>
+                <div class="col-xs-4">
 
-                    <div class="form-group ">
-                        <label>Reader E-mail</label>
-                        <input class="form-control ">
-                    </div>
+                    <h1>Contact Us</h1>
+                    <h4><strong>NYClimber Brooklyn, New York </strong></h4>
+                    <p>883 Classon Ave, Brooklyn, NY 11225. Come in and speak to our representatives on any concers you may have about NYClimber. 
+                    </p>
+                    <h4> <strong> Number: </strong> 917-854-3014</h4>
+                    <h4><strong> En Espanol </strong> 646-363-2906</h4>
+                    <h4><strong> Email Us!</strong> climbercontact@nyclimber.com</h4>
+                    <h4><b>Office Hours:</b></h4>
+                    <p> <br> Sunday: Closed<br>Monday: 5AM-11PM<br>Tuesday: 5AM-11PM<br>Wednesday: 5AM-11PM<br>Thursday: 5AM-11PM<br>Friday: 5AM-10PM<br>Saturday: 7AM-10PM<br></p>
 
-                    <div class="form-group ">
-                        <label>What did you like about the blog?</label>
-                        <input class="form-control ">
-                    </div>
-
-                    <div class="form-group ">
-                        <label>What did you dislike?</label>
-                        <input class="form-control ">
-                    </div>
-
-                    <button> Submit </button>
-                                
-
+                </div>
             </div>
         </div>
-    </div> 
+            <h1>NYClimber Office</h1>
+        <div class="container" id="fliprock">
+            <div class="row">
+                <div class="col-xs-8">
+                    <img src="http://www.nycago.org/Organs/Bkln/img/ProspectHtsHSExt.jpg">
+                </div>
+            </div>
+        </div>
+
+
+        <button type="button" id="feedbutt" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Comments</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Comments?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group ">
+                                <label>Name</label>
+                                <input class="form-control ">
+                            </div>
+
+                            <div class="form-group ">
+                                <label>Email</label>
+                                <input class="form-control ">
+                            </div>
+
+                            <div class="form-group ">
+                                <label>Any Concerns?</label>
+                                <input class="form-control ">
+                            </div>
+
+                            <div class="form-group ">
+                                <label>Message</label>
+                                <input class="form-control ">
+                            </div>
+
+                            <button> Submit </button>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
 </body>
 
 </html>

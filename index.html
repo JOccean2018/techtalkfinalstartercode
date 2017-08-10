@@ -4,8 +4,8 @@
 <head>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
 
 
@@ -13,17 +13,19 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-default fixed-top">
-      <div class="container-fluid">
+  <div class="container-fluid" style="padding:0px; margin:0px">
+    <nav class="navbar-fixed-top navbar-default ">
+      <div class="container-fluid ">
+      <a class="nav" href="index.html"> <a class="navbar-brand"><img style="height:30px; width:130px;padding-right:10px;padding-bottom:5px;" src="pages/logo.png"></a></a>
         <div class="navbar-header">
+
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          
+
         </div>
         <div id="navbar1" class="navbar-collapse collapse">
           <ul class="nav navbar-nav ">
@@ -36,8 +38,8 @@
                 <li><a class="nav" href="pages/location.html">Location</a></li>
                 <li><a href="#">...</a></li>
                 <li><a href="#">...</a></li>
-                <a class="navbar-brand"><img src="http://www.endlessicons.com/wp-content/uploads/2014/01/mountain-icon-1-614x460.png" alt="NYClimber">
-        </a>
+
+                </a>
 
               </ul>
             </li>
@@ -48,41 +50,71 @@
       <!--/.container-fluid -->
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding:0px;">
       <div class="row">
-        <div class="col-md-4 img-responsive">
-          <a href="#" data-toggle="popover" title="Suspendisse ornare" data-content="Nulla placerat odio vel ex venenatis, ut rhoncus nisi tempor. Nullam tincidunt, risus ac rhoncus suscipit, eros metus fringilla mi, quis dictum neque massa quis dui. In sapien magna, ornare eleifend euismod quis"
-            data-placement="bottom">
-          <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2017/03/BOC.jpg">
-        
-        </div>
-        </a>
-          <a href="#" data-toggle="popover" class="pop1" title="Suspendisse ornare" data-content="Nulla placerat odio vel ex venenatis, ut rhoncus nisi tempor. Nullam tincidunt, risus ac rhoncus suscipit, eros metus fringilla mi, quis dictum neque massa quis dui. In sapien magna, ornare eleifend euismod quis"
-            data-placement="bottom">
-            <div class="col-md-4 img-responsive">
-              <img src="http://cruxcrush.com/wp-content/uploads/2015/12/Photo-2.jpeg">
-          </a>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="https://cmgstatesmanparenting.files.wordpress.com/2017/02/jwj-rockabout-climbing-camp-0969.jpg" alt="Los Angeles" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2017/03/BOC.jpg" alt="Chicago" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="http://cruxcrush.com/wp-content/uploads/2015/12/Photo-2.jpeg" alt="New york" style="width:100%;">
+            </div>
           </div>
 
-          <a href="#" data-toggle="popover" title="Suspendisse ornare" data-content="Nulla placerat odio vel ex venenatis, ut rhoncus nisi tempor. Nullam tincidunt, risus ac rhoncus suscipit, eros metus fringilla mi, quis dictum neque massa quis dui. In sapien magna, ornare eleifend euismod quis"
-            data-placement="bottom">
-            <div class="col-md-4 img-responsive">
-              <img src="http://brooklynboulders.com/wp-content/uploads/2014/12/boc-Ashton-BOC-Goofing-1024x575.jpg">
-          </a>
-          </div>
-
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
         </div>
       </div>
 
-      <h1>Duo quis chopnenea</h1>
 
-      <p>Lorem ipsum ahil sit amet, eos eripuit feugiat inimicus no, at pro homero aeterno. Vidit omittantur vix at. Et meis dicat munere quo. Mel prima impedit ex. Duo ne evertitur deseruisse, rebum copiosae quaerendum te mei. Posse malis ne pro, his nibh
-        doming tibique at. Clita verear dolorem eu qui, eu cum decore corpora scriptorem.
-      </p>
-      <p>Lorem ipsum dolor sit amet, eos eripuit feugiat inimicus no, at pro homero aeterno. Vidit omittantur vix at. Et meis dicat munere quo. Mel prima impedit ex. Duo ne evertitur deseruisse, rebum copiosae quaerendum te mei. Posse malis ne pro, his nibh
-        doming tibique at. Clita verear dolorem eu qui, eu cum decore corpora scriptorem.</p>
-      <p>Lorem ipsum dolor sit amet, eos eripuit feugiat inimicus no, at pro homero aeterno. Vidit omittantur vix at. Et meis dicat munere quo. Mel prima impedit ex. Duo ne evertitur deseruisse, rebum copiosae quaerendum te mei. Posse malis ne pro, his nibh
-        doming tibique at. Clita verear dolorem eu qui, eu cum decore corpora scriptorem.</p>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding:0px; margin:px;">
+            <center>
+
+              <h1>Welcome to NYClimber</h1>
+
+              <p>NYClimbers is where high school students in NYC go to access information and locations related to rock climbing.
+              </p>
+              <p>Here you will see all the fun places where students can go and have fun.</p>
+              <p>Whether you're brand new to the sport or already a seasoned climber, we will do our best to connet you to a great experience.</p>
+
+            </center>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <footer style="background-color: black; height: 70px;width:100%;">
+            
+          </footer>
+        </div>
+      </div>
 </body>
 
 </html>
