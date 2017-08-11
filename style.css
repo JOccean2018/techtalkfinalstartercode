@@ -1,8 +1,6 @@
-
-
 .navbar-brand-left img {
-    width:130px;
-    height:30px;
+    width: 130px;
+    height: 30px;
 }
 
 
@@ -46,15 +44,23 @@
 
 
 #fliprock {
-	-webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-    
+
 .navbar-brand {
-background-color: grey;
+    background-color: grey;
 }
+
 .carousel {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#grouprock {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
